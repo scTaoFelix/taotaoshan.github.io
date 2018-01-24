@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>博客</title>
+  <title>SCTAO BLOG</title>
   
   <subtitle>“所有看起来的幸运，都源自坚持不懈的努力。”</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://taotaoshan.github.io/"/>
   <updated>2018-01-23T10:32:59.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://taotaoshan.github.io/</id>
   
   <author>
     <name>T.sctao</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>test</title>
-    <link href="http://yoursite.com/2018/01/23/test/"/>
-    <id>http://yoursite.com/2018/01/23/test/</id>
+    <link href="https://taotaoshan.github.io/2018/01/23/test/"/>
+    <id>https://taotaoshan.github.io/2018/01/23/test/</id>
     <published>2018-01-23T10:27:17.000Z</published>
     <updated>2018-01-23T10:32:59.000Z</updated>
     
@@ -35,14 +35,14 @@
     </summary>
     
     
-      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+      <category term="js" scheme="https://taotaoshan.github.io/tags/js/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/01/22/hello-world/"/>
-    <id>http://yoursite.com/2018/01/22/hello-world/</id>
+    <link href="https://taotaoshan.github.io/2018/01/22/hello-world/"/>
+    <id>https://taotaoshan.github.io/2018/01/22/hello-world/</id>
     <published>2018-01-22T09:53:30.595Z</published>
     <updated>2018-01-22T09:53:30.595Z</updated>
     
