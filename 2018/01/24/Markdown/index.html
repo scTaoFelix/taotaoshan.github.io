@@ -119,15 +119,15 @@
 <meta name="description" content="Markdown 的目标是实现「易读易写」。 1、标题1、Setext 1234# 一级标题## 二级标题...###### 六级标题 2、atx 123456最高级标题========次级级标题--------次次级标题------- 2、区块代码 第一行 第2行 第3行 12345&amp;gt; 第一行&amp;gt;&amp;gt; 第2行&amp;gt;&amp;gt; ##### 第3行 （标题） 3、修辞和强调are em">
 <meta name="keywords" content="Markdown">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Markdown 简洁的使用方法">
+<meta property="og:title" content="Markdown 简单的语法">
 <meta property="og:url" content="https://taotaoshan.github.io/2018/01/24/Markdown/index.html">
 <meta property="og:site_name" content="SCTAO BLOG">
 <meta property="og:description" content="Markdown 的目标是实现「易读易写」。 1、标题1、Setext 1234# 一级标题## 二级标题...###### 六级标题 2、atx 123456最高级标题========次级级标题--------次次级标题------- 2、区块代码 第一行 第2行 第3行 12345&amp;gt; 第一行&amp;gt;&amp;gt; 第2行&amp;gt;&amp;gt; ##### 第3行 （标题） 3、修辞和强调are em">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://taotaoshan.github.io/2018/01/24/img/avatar.jpeg">
-<meta property="og:updated_time" content="2018-01-24T08:20:09.703Z">
+<meta property="og:updated_time" content="2018-01-24T08:30:07.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markdown 简洁的使用方法">
+<meta name="twitter:title" content="Markdown 简单的语法">
 <meta name="twitter:description" content="Markdown 的目标是实现「易读易写」。 1、标题1、Setext 1234# 一级标题## 二级标题...###### 六级标题 2、atx 123456最高级标题========次级级标题--------次次级标题------- 2、区块代码 第一行 第2行 第3行 12345&amp;gt; 第一行&amp;gt;&amp;gt; 第2行&amp;gt;&amp;gt; ##### 第3行 （标题） 3、修辞和强调are em">
 <meta name="twitter:image" content="https://taotaoshan.github.io/2018/01/24/img/avatar.jpeg">
 
@@ -141,7 +141,7 @@
   <link rel="canonical" href="https://taotaoshan.github.io/2018/01/24/Markdown/"/>
 
 
-  <title>Markdown 简洁的使用方法 | SCTAO BLOG</title>
+  <title>Markdown 简单的语法 | SCTAO BLOG</title>
   
 
 
@@ -308,7 +308,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Markdown 简洁的使用方法</h1>
+          <h1 class="post-title" itemprop="name headline">Markdown 简单的语法</h1>
         
 
         <div class="post-meta">
@@ -411,9 +411,12 @@
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">链接[点我回首页](<span class="comment">//taotaoshan.github.io)</span></span><br></pre></td></tr></table></figure>
 <p><a href="http://www.baidu.com/" title="baidu" target="_blank" rel="noopener">百度</a></p>
 <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">可以定义变量</span><br><span class="line">[百度][<span class="number">1</span>]</span><br><span class="line">[<span class="number">1</span>]: http:<span class="comment">//www.baidu.com/ "baidu"</span></span><br></pre></td></tr></table></figure>
-<h3 id="6、图片"><a href="#6、图片" class="headerlink" title="6、图片"></a>6、图片</h3><p><img src="../img/avatar.jpeg" alt="alt text" title="Title"></p>
-<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![alt text](../img/avatar.jpeg <span class="string">"Title"</span>)</span><br></pre></td></tr></table></figure>
-
+<h3 id="6、图片"><a href="#6、图片" class="headerlink" title="6、图片"></a>6、图片</h3><p><img src="../img/avatar.jpeg" alt="图片" title="Title"></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">![alt text](../img/avatar.jpeg <span class="string">"Title"</span>)</span><br><span class="line"></span><br><span class="line">![alt text][id]</span><br><span class="line"></span><br><span class="line">[id]: <span class="regexp">/path/</span>to/img.jpg <span class="string">"Title"</span></span><br></pre></td></tr></table></figure>
+<h3 id="7、代码"><a href="#7、代码" class="headerlink" title="7、代码"></a>7、代码</h3><p>Use the <code>console.log()</code> function.</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">行内代码</span><br><span class="line">Use the <span class="string">`console.log()`</span> <span class="function"><span class="keyword">function</span>.</span></span><br></pre></td></tr></table></figure>
+<p><code>There is a literal backtick (`) here.</code></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">在段落中使用 <span class="string">`</span></span><br><span class="line"><span class="string">`</span><span class="string">`There is a literal backtick (`</span>) here.<span class="string">``</span></span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -674,7 +677,7 @@ var jiathis_config={
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、标题"><span class="nav-number">1.</span> <span class="nav-text">1、标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、区块代码"><span class="nav-number">2.</span> <span class="nav-text">2、区块代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第3行"><span class="nav-number"></span> <span class="nav-text">第3行</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3、修辞和强调"><span class="nav-number">1.</span> <span class="nav-text">3、修辞和强调</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、列表"><span class="nav-number">2.</span> <span class="nav-text">3、列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、区域-前面缩排-4-个空白或-1-个-tab-。"><span class="nav-number">3.</span> <span class="nav-text">4、区域 (前面缩排 4 个空白或 1 个 tab 。)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、链接"><span class="nav-number">4.</span> <span class="nav-text">5、链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、图片"><span class="nav-number">5.</span> <span class="nav-text">6、图片</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1、标题"><span class="nav-number">1.</span> <span class="nav-text">1、标题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2、区块代码"><span class="nav-number">2.</span> <span class="nav-text">2、区块代码</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第3行"><span class="nav-number"></span> <span class="nav-text">第3行</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#3、修辞和强调"><span class="nav-number">1.</span> <span class="nav-text">3、修辞和强调</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3、列表"><span class="nav-number">2.</span> <span class="nav-text">3、列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4、区域-前面缩排-4-个空白或-1-个-tab-。"><span class="nav-number">3.</span> <span class="nav-text">4、区域 (前面缩排 4 个空白或 1 个 tab 。)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5、链接"><span class="nav-number">4.</span> <span class="nav-text">5、链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6、图片"><span class="nav-number">5.</span> <span class="nav-text">6、图片</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7、代码"><span class="nav-number">6.</span> <span class="nav-text">7、代码</span></a></li></ol></div>
             
 
           </div>
